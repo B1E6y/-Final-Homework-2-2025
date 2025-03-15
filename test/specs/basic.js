@@ -32,7 +32,7 @@ describe('пш (Final homework2)', async () => {
         await browser.pause(100)
 
         await enterprisePage.clickOnEnterprise()
-        await browser.pause(1100)
+        await browser.pause(100)
 
         })
     }
