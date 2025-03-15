@@ -4,7 +4,7 @@ const assert = require('assert')
 const enterprisePage = require('../page/enterprise.page.js')
 
 
-describe('пш (Final homework2)', async () => {
+describe('Should check exists some textes, check visibility and clickability of elements (Final homework2)', async () => {
     
     it('Go to website github.com', async () => {
         await browser.url('https://github.com/');
